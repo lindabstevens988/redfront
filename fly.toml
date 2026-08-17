@@ -1,15 +1,15 @@
-# fly.toml app configuration file generated for nike-job-opportunity on 2025-12-16T17:49:44Z
+# fly.toml app configuration file generated for redfront-jleuyq on 2026-08-17T18:28:00Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'nike-job-opportunity'
-primary_region = 'fra'
+app = 'redfront-jleuyq'
+primary_region = 'ams'
 
 [build]
 
 [http_service]
-  internal_port = 80
+  internal_port = 8080
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true
